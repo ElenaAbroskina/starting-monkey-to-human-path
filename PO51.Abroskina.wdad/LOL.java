@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * Created by Lenovo on 27.09.2017.
  */
