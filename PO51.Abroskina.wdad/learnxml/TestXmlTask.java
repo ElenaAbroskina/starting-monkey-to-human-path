@@ -13,11 +13,11 @@ public class TestXmlTask {
         String oldSecondName = "Petrov";
         String newFirstName = "Petr";
         String newSecondName = "Sidorov";
-        Calendar calendar = new GregorianCalendar(17, 06, 2017);
+        Calendar calendar = new GregorianCalendar(17, 6, 2017);
         System.out.println(xml.earningsTotal(newFirstName, calendar));
         xml.changeOfficiantName(oldFirstName, oldSecondName, newFirstName, newSecondName);
         calendar.clear();
-        calendar.set(17,06,2017);
+        calendar.set(17,6,2017);
         xml.removeDay(calendar);
     }
 }
