@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
  */
 public class TestXmlTask {
     public static void TestXmlTask(String[] str) throws Exception {
-        XmlTask xml = new XmlTask("PO51.Abroskina.wdad\\learnxml\\test2.xml");
+        XmlTask xml = new XmlTask("PO51\\Abroskina\\wdad\\learnxml\\test2.xml");
         String oldFirstName = "Ivan";
         String oldSecondName = "Petrov";
         String newFirstName = "Petr";
