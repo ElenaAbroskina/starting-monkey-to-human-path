@@ -94,7 +94,7 @@ public class XmlTask {
              year = Integer.parseInt(element.getAttribute ("year"));
              thisCalendar.set(day, month, year);
              if (calendar.equals(thisCalendar)) {
-                 Element d = (Element) document.getElementsByTagName("restaurant").item(i);
+                 Element d = (Element) document.getElementsByTagName("restaurant").item(0);
                  d.removeChild(element);
                  writeXmlFile();
              }
